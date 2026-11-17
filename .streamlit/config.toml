@@ -1,0 +1,63 @@
+[theme]
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "5px"
+buttonRadius = "5px"
+font = "'Public Sans':https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap"
+codeFont = "'IBM Plex Mono':https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+codeFontSize = "0.85rem"
+baseFontSize = 14
+headingFontSizes = ["30px", "22px", "17px", "15px", "14px", "13px"]
+headingFontWeights = [700, 650, 600, 600, 600, 600]
+
+[theme.light]
+primaryColor = "#0F5E8C"
+backgroundColor = "#F6F8FA"
+secondaryBackgroundColor = "#FFFFFF"
+codeBackgroundColor = "#EAF0F5"
+textColor = "#15232D"
+linkColor = "#0F5E8C"
+borderColor = "#CBD6DF"
+grayColor = "#5E7080"
+blueColor = "#2A78D6"
+greenColor = "#2E7D4F"
+redColor = "#B3261E"
+orangeColor = "#B45309"
+yellowColor = "#A16207"
+violetColor = "#6D4AA8"
+chartCategoricalColors = ["#2A78D6", "#EB6834", "#1BAF7A"]
+chartSequentialColors = ["#EEF4FA", "#DCEAF5", "#C2DAEC", "#8FB8D8", "#6B9DC8", "#3F7FB3", "#2D679A", "#1D4F80", "#123A63", "#0B2A4A"]
+dataframeBorderColor = "#CBD6DF"
+dataframeHeaderBackgroundColor = "#EAF0F5"
+
+[theme.dark]
+primaryColor = "#4FA3D9"
+backgroundColor = "#0E1A23"
+secondaryBackgroundColor = "#16252F"
+codeBackgroundColor = "#1D303C"
+textColor = "#E6EEF4"
+linkColor = "#7DBEE8"
+borderColor = "#2B4251"
+grayColor = "#93A8B7"
+blueColor = "#3987E5"
+greenColor = "#5CC48A"
+redColor = "#F0776F"
+orangeColor = "#E9A04F"
+yellowColor = "#D9B44A"
+violetColor = "#A78BD9"
+chartCategoricalColors = ["#3987E5", "#D95926", "#199E70"]
+chartSequentialColors = ["#16303F", "#1B4258", "#235A78", "#2D739A", "#3F8DBA", "#5BA6CF", "#7DBDE0", "#A1D1EC", "#C6E3F5", "#E3F1FA"]
+dataframeBorderColor = "#2B4251"
+dataframeHeaderBackgroundColor = "#1D303C"
+dataframeHeaderTextColor = "#E6EEF4"
+
+[theme.light.sidebar]
+backgroundColor = "#EAF0F5"
+secondaryBackgroundColor = "#FFFFFF"
+
+[theme.dark.sidebar]
+backgroundColor = "#0A131A"
+secondaryBackgroundColor = "#16252F"
+
+[client]
+toolbarMode = "minimal"
