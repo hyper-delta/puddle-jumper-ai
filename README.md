@@ -1,5 +1,9 @@
 # Cloudburst emergency coordination (Assam flood simulation)
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://puddle-jumper-ai.streamlit.app/)
+
+**Live demo:** https://puddle-jumper-ai.streamlit.app/
+
 Run locally (Python 3.10+, internet needed for map imagery):
 
     python -m pip install -r requirements.txt
